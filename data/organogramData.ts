@@ -85,7 +85,7 @@ export const organogramData: OrganogramData = {
         { id: 'ass-fin',  title: '109 Assistentes', subtitle: 'Financeiro',      level: 'assistant', department: 'financeiro' },
         { id: 'ass-ops',  title: '2093 Assistentes', subtitle: 'Operações',       level: 'assistant', department: 'operacoes' },
         { id: 'ass-ti',   title: '489 Assistentes', subtitle: 'Suporte',         level: 'assistant', department: 'ti' },
-        { id: 'ass-mkt',  title: '494 Assistentes', subtitle: 'Marketing',       level: 'assistant', department: 'marketing' },
+        { id: 'ass-mkt',  title: '94 Assistentes', subtitle: 'Marketing',       level: 'assistant', department: 'marketing' },
         { id: 'ass-rh',   title: '162 Assistentes', subtitle: 'RH',              level: 'assistant', department: 'rh' },
         { id: 'ass-estr', title: '28 Assistentes', subtitle: 'Planejamento',    level: 'assistant', department: 'estrategia' },
         { id: 'ass-prod', title: '137 Assistentes', subtitle: 'Produto',         level: 'assistant', department: 'produto' }
