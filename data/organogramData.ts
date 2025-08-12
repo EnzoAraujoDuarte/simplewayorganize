@@ -31,7 +31,7 @@ export const organogramData: OrganogramData = {
       title: 'Diretores',
       positions: [
         { id: 'dir-fin', title: '2 Diretores', subtitle: 'Financeiro', level: 'director', department: 'financeiro' },
-        { id: 'dir-ops', title: '2 Diretores', subtitle: 'Operações', level: 'director', department: 'operacoes' },
+        { id: 'dir-ops', title: '3 Diretores', subtitle: 'Operações', level: 'director', department: 'operacoes' },
         { id: 'dir-ti',  title: '2 Diretores', subtitle: 'Tecnologia', level: 'director', department: 'ti' },
         { id: 'dir-mkt', title: '2 Diretores', subtitle: 'Marketing', level: 'director', department: 'marketing' },
         { id: 'dir-rh',  title: '2 Diretores', subtitle: 'RH', level: 'director', department: 'rh' },
@@ -44,7 +44,7 @@ export const organogramData: OrganogramData = {
       title: 'Gerentes',
       positions: [
         { id: 'ger-fin', title: '3 Gerentes', subtitle: 'Controladoria/Contabilidade', level: 'manager', department: 'financeiro' },
-        { id: 'ger-ops', title: '5 Gerentes', subtitle: 'Operações', level: 'manager', department: 'operacoes' },
+        { id: 'ger-ops', title: '10 Gerentes', subtitle: 'Operações', level: 'manager', department: 'operacoes' },
         { id: 'ger-ti',  title: '4 Gerentes', subtitle: 'Sistemas', level: 'manager', department: 'ti' },
         { id: 'ger-mkt', title: '3 Gerentes', subtitle: 'Growth', level: 'manager', department: 'marketing' },
         { id: 'ger-rh',  title: '3 Gerentes', subtitle: 'Pessoas', level: 'manager', department: 'rh' },
@@ -57,7 +57,7 @@ export const organogramData: OrganogramData = {
       title: 'Supervisores',
       positions: [
         { id: 'sup-fin', title: '17 Supervisores', subtitle: 'Financeiro', level: 'supervisor', department: 'financeiro' },
-        { id: 'sup-ops', title: '31 Supervisores', subtitle: 'Operações', level: 'supervisor', department: 'operacoes' },
+        { id: 'sup-ops', title: '102 Supervisores', subtitle: 'Operações', level: 'supervisor', department: 'operacoes' },
         { id: 'sup-ti',  title: '16 Supervisores', subtitle: 'Desenvolvimento/TI', level: 'supervisor', department: 'ti' },
         { id: 'sup-mkt', title: '16 Supervisores', subtitle: 'Mídia', level: 'supervisor', department: 'marketing' },
         { id: 'sup-rh',  title: '16 Supervisores', subtitle: 'RH', level: 'supervisor', department: 'rh' },
@@ -70,12 +70,12 @@ export const organogramData: OrganogramData = {
       title: 'Analistas',
       positions: [
         { id: 'ana-fin',  title: '385 Analistas', subtitle: 'Financeiro',          level: 'analyst', department: 'financeiro' },
-        { id: 'ana-ops',  title: '272 Analistas', subtitle: 'Operações',           level: 'analyst', department: 'operacoes' },
+        { id: 'ana-ops',  title: '1072 Analistas', subtitle: 'Operações',           level: 'analyst', department: 'operacoes' },
         { id: 'ana-ti',   title: '243 Analistas', subtitle: 'Desenvolvimento/TI',  level: 'analyst', department: 'ti' },
         { id: 'ana-mkt',  title: '211 Analistas', subtitle: 'Marketing/Performance',         level: 'analyst', department: 'marketing' },
         { id: 'ana-rh',   title: '51 Analistas', subtitle: 'RH',                  level: 'analyst', department: 'rh' },
         { id: 'ana-estr', title: '46 Analistas', subtitle: 'Inteligência',        level: 'analyst', department: 'estrategia' },
-        { id: 'ana-prod', title: '35 Analistas', subtitle: 'Produto',             level: 'analyst', department: 'produto' }
+        { id: 'ana-prod', title: '83 Analistas', subtitle: 'Produto',             level: 'analyst', department: 'produto' }
       ]
     },
     {
@@ -87,7 +87,7 @@ export const organogramData: OrganogramData = {
         { id: 'ass-ti',   title: '489 Assistentes', subtitle: 'Suporte',         level: 'assistant', department: 'ti' },
         { id: 'ass-mkt',  title: '494 Assistentes', subtitle: 'Marketing',       level: 'assistant', department: 'marketing' },
         { id: 'ass-rh',   title: '162 Assistentes', subtitle: 'RH',              level: 'assistant', department: 'rh' },
-        { id: 'ass-estr', title: '138 Assistentes', subtitle: 'Planejamento',    level: 'assistant', department: 'estrategia' },
+        { id: 'ass-estr', title: '28 Assistentes', subtitle: 'Planejamento',    level: 'assistant', department: 'estrategia' },
         { id: 'ass-prod', title: '137 Assistentes', subtitle: 'Produto',         level: 'assistant', department: 'produto' }
       ]
     },
